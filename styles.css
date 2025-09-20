@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     display: flex vertical auto;
+    margin: 0;
 }
 
 .hero, .footer {
@@ -38,14 +39,26 @@ button, .call_to_action {
     
 }
 
-.quote {
+.quote_section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
 }
 
-.quote p {
+.quote_section p {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    max-width: 900px;
+    margin-bottom: 0;
+}
+
+.quote_section h3 {
+    margin-top: 0;
+    padding-left: 500px;
 }
 
 .footer p {
