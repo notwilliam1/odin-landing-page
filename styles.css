@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    display: flex vertical auto;
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
