@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    display: flex vertical;
+    display: flex vertical auto;
 }
 
 .hero, .footer {
@@ -29,10 +29,12 @@ button, .call_to_action {
     color: #E5E7EB;
 }
 
-.main h2 {
+.info_title h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding-bottom: 20px;
+    margin-top: 0;
 }
 
 .quote {
@@ -49,10 +51,12 @@ button, .call_to_action {
     color:#E5E7EB
 }
 
-.main img {
+.imgs_and_txt img {
     width: 200px;
-    height: auto;
-    flex: horizontal 1;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 .hero img {
@@ -98,4 +102,29 @@ button, .call_to_action {
     border-radius: 8px;
     border: none;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.imgs_and_txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.imgs_and_txt p {
+    max-width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
 
