@@ -25,7 +25,7 @@ body {
     color: #F9FAF8;   
 }
 
-button, .call_to_action {
+button, .call_to_action_content {
     background-color: #3882F6;
     color: #E5E7EB;
 }
@@ -140,6 +140,43 @@ button, .call_to_action {
     text-align: center;
 }
 
+.cta {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.call_to_action_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+}
+
+.cta_txt {
+    padding-right: 150px;
+}
+
+.cta_button button {
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.cta_txt h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cta_txt p {
+    margin-top: 5px;
+}
 
 
 
