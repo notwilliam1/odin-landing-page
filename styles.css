@@ -1,0 +1,101 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex vertical;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero_content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo h3 {
+    font-size: 24px;
+    color: #F9FAF8;   
+}
+
+button, .call_to_action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.main h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.footer p {
+    color:#E5E7EB
+}
+
+.main img {
+    width: 200px;
+    height: auto;
+    flex: horizontal 1;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
+.header, .hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.header_links{
+    display: flex;
+    gap: 20px;
+}
+
+.header_links p {
+    margin: 0;
+}
+
+.hero_content {
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.hero_text p {
+    margin-top: 5px;
+}
+
+.hero_text button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
