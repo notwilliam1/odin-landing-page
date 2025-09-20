@@ -1,1 +1,2 @@
 # odin-landing-page
+This is my Odin Project landing page! I found this project to be fun and challenging. Through it I learned some good key concepts about html and css. More specifically, how to work with flex boxes and basic css styling. With this being my first basic webpage from scratch, I learned so much and and fun doing it!
