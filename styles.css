@@ -35,6 +35,7 @@ button, .call_to_action {
     font-weight: 900;
     padding-bottom: 20px;
     margin-top: 0;
+    
 }
 
 .quote {
@@ -81,7 +82,7 @@ button, .call_to_action {
 }
 
 .hero_content {
-    padding-bottom: 75px;
+    padding-bottom: 150px;
     padding-top: 75px;
 }
 
@@ -108,7 +109,8 @@ button, .call_to_action {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .imgs_and_txt {
