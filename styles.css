@@ -178,5 +178,13 @@ button, .call_to_action_content {
     margin-top: 5px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 
